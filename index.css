@@ -1,0 +1,1167 @@
+body {
+    background: black;
+}
+
+.wrapper {
+    transform-style: preserve-3d;
+    margin: 40vh 40vw;
+    animation: rotate 10s infinite alternate;
+    transform-origin: 50% 50%;
+}
+
+@keyframes rotate {
+    to {
+        transform: rotatex(360deg);
+    }
+}
+
+.o {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    border-radius: 50%;
+}
+
+.o:nth-child(1) {
+    animation: ring-1 10s linear infinite alternate;
+    border: 4px dotted #cc8866;
+}
+
+@keyframes ring-1 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(60deg);
+    }
+}
+
+.o:nth-child(2) {
+    animation: ring-2 10s linear infinite alternate;
+    border: 4px dotted #ccaa66;
+}
+
+@keyframes ring-2 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(120deg);
+    }
+}
+
+.o:nth-child(3) {
+    animation: ring-3 10s linear infinite alternate;
+    border: 4px dotted #cccc66;
+}
+
+@keyframes ring-3 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(180deg);
+    }
+}
+
+.o:nth-child(4) {
+    animation: ring-4 10s linear infinite alternate;
+    border: 4px dotted #aacc66;
+}
+
+@keyframes ring-4 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(240deg);
+    }
+}
+
+.o:nth-child(5) {
+    animation: ring-5 10s linear infinite alternate;
+    border: 4px dotted #88cc66;
+}
+
+@keyframes ring-5 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(300deg);
+    }
+}
+
+.o:nth-child(6) {
+    animation: ring-6 10s linear infinite alternate;
+    border: 4px dotted #66cc66;
+}
+
+@keyframes ring-6 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.o:nth-child(7) {
+    animation: ring-7 10s linear infinite alternate;
+    border: 4px dotted #66cc88;
+}
+
+@keyframes ring-7 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(420deg);
+    }
+}
+
+.o:nth-child(8) {
+    animation: ring-8 10s linear infinite alternate;
+    border: 4px dotted #66ccaa;
+}
+
+@keyframes ring-8 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(480deg);
+    }
+}
+
+.o:nth-child(9) {
+    animation: ring-9 10s linear infinite alternate;
+    border: 4px dotted #66cccc;
+}
+
+@keyframes ring-9 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(540deg);
+    }
+}
+
+.o:nth-child(10) {
+    animation: ring-10 10s linear infinite alternate;
+    border: 4px dotted #66aacc;
+}
+
+@keyframes ring-10 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(600deg);
+    }
+}
+
+.o:nth-child(11) {
+    animation: ring-11 10s linear infinite alternate;
+    border: 4px dotted #6688cc;
+}
+
+@keyframes ring-11 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(660deg);
+    }
+}
+
+.o:nth-child(12) {
+    animation: ring-12 10s linear infinite alternate;
+    border: 4px dotted #6666cc;
+}
+
+@keyframes ring-12 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(720deg);
+    }
+}
+
+.o:nth-child(13) {
+    animation: ring-13 10s linear infinite alternate;
+    border: 4px dotted #8866cc;
+}
+
+@keyframes ring-13 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(780deg);
+    }
+}
+
+.o:nth-child(14) {
+    animation: ring-14 10s linear infinite alternate;
+    border: 4px dotted #aa66cc;
+}
+
+@keyframes ring-14 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(840deg);
+    }
+}
+
+.o:nth-child(15) {
+    animation: ring-15 10s linear infinite alternate;
+    border: 4px dotted #cc66cc;
+}
+
+@keyframes ring-15 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(900deg);
+    }
+}
+
+.o:nth-child(16) {
+    animation: ring-16 10s linear infinite alternate;
+    border: 4px dotted #cc66aa;
+}
+
+@keyframes ring-16 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(960deg);
+    }
+}
+
+.o:nth-child(17) {
+    animation: ring-17 10s linear infinite alternate;
+    border: 4px dotted #cc6688;
+}
+
+@keyframes ring-17 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1020deg);
+    }
+}
+
+.o:nth-child(18) {
+    animation: ring-18 10s linear infinite alternate;
+    border: 4px dotted #cc6666;
+}
+
+@keyframes ring-18 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1080deg);
+    }
+}
+
+.o:nth-child(19) {
+    animation: ring-19 10s linear infinite alternate;
+    border: 4px dotted #cc8866;
+}
+
+@keyframes ring-19 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1140deg);
+    }
+}
+
+.o:nth-child(20) {
+    animation: ring-20 10s linear infinite alternate;
+    border: 4px dotted #ccaa66;
+}
+
+@keyframes ring-20 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1200deg);
+    }
+}
+
+.o:nth-child(21) {
+    animation: ring-21 10s linear infinite alternate;
+    border: 4px dotted #cccc66;
+}
+
+@keyframes ring-21 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1260deg);
+    }
+}
+
+.o:nth-child(22) {
+    animation: ring-22 10s linear infinite alternate;
+    border: 4px dotted #aacc66;
+}
+
+@keyframes ring-22 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1320deg);
+    }
+}
+
+.o:nth-child(23) {
+    animation: ring-23 10s linear infinite alternate;
+    border: 4px dotted #88cc66;
+}
+
+@keyframes ring-23 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1380deg);
+    }
+}
+
+.o:nth-child(24) {
+    animation: ring-24 10s linear infinite alternate;
+    border: 4px dotted #66cc66;
+}
+
+@keyframes ring-24 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1440deg);
+    }
+}
+
+.o:nth-child(25) {
+    animation: ring-25 10s linear infinite alternate;
+    border: 4px dotted #66cc88;
+}
+
+@keyframes ring-25 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1500deg);
+    }
+}
+
+.o:nth-child(26) {
+    animation: ring-26 10s linear infinite alternate;
+    border: 4px dotted #66ccaa;
+}
+
+@keyframes ring-26 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1560deg);
+    }
+}
+
+.o:nth-child(27) {
+    animation: ring-27 10s linear infinite alternate;
+    border: 4px dotted #66cccc;
+}
+
+@keyframes ring-27 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1620deg);
+    }
+}
+
+.o:nth-child(28) {
+    animation: ring-28 10s linear infinite alternate;
+    border: 4px dotted #66aacc;
+}
+
+@keyframes ring-28 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1680deg);
+    }
+}
+
+.o:nth-child(29) {
+    animation: ring-29 10s linear infinite alternate;
+    border: 4px dotted #6688cc;
+}
+
+@keyframes ring-29 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1740deg);
+    }
+}
+
+.o:nth-child(30) {
+    animation: ring-30 10s linear infinite alternate;
+    border: 4px dotted #6666cc;
+}
+
+@keyframes ring-30 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1800deg);
+    }
+}
+
+.o:nth-child(31) {
+    animation: ring-31 10s linear infinite alternate;
+    border: 4px dotted #8866cc;
+}
+
+@keyframes ring-31 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1860deg);
+    }
+}
+
+.o:nth-child(32) {
+    animation: ring-32 10s linear infinite alternate;
+    border: 4px dotted #aa66cc;
+}
+
+@keyframes ring-32 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1920deg);
+    }
+}
+
+.o:nth-child(33) {
+    animation: ring-33 10s linear infinite alternate;
+    border: 4px dotted #cc66cc;
+}
+
+@keyframes ring-33 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1980deg);
+    }
+}
+
+.o:nth-child(34) {
+    animation: ring-34 10s linear infinite alternate;
+    border: 4px dotted #cc66aa;
+}
+
+@keyframes ring-34 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(2040deg);
+    }
+}
+
+.o:nth-child(35) {
+    animation: ring-35 10s linear infinite alternate;
+    border: 4px dotted #cc6688;
+}
+
+@keyframes ring-35 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(2100deg);
+    }
+}
+
+.o:nth-child(36) {
+    animation: ring-36 10s linear infinite alternate;
+    border: 4px dotted #cc6666;
+}
+
+@keyframes ring-36 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(2160deg);
+    }
+}
+
+.o:nth-child(37) {
+    animation: ring-37 10s linear infinite alternate;
+    border: 4px dotted #cc8866;
+}
+
+@keyframes ring-37 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(2220deg);
+    }
+}
+
+.o:nth-child(38) {
+    animation: ring-38 10s linear infinite alternate;
+    border: 4px dotted #ccaa66;
+}
+
+@keyframes ring-38 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(2280deg);
+    }
+}
+
+.o:nth-child(39) {
+    animation: ring-39 10s linear infinite alternate;
+    border: 4px dotted #cccc66;
+}
+
+@keyframes ring-39 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(2340deg);
+    }
+}
+
+.o:nth-child(40) {
+    animation: ring-40 10s linear infinite alternate;
+    border: 4px dotted #aacc66;
+}
+
+@keyframes ring-40 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(2400deg);
+    }
+}
+
+.o:nth-child(41) {
+    animation: ring-41 10s linear infinite alternate;
+    border: 4px dotted #88cc66;
+}
+
+@keyframes ring-41 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(60deg);
+    }
+}
+
+.o:nth-child(42) {
+    animation: ring-42 10s linear infinite alternate;
+    border: 4px dotted #66cc66;
+}
+
+@keyframes ring-42 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(120deg);
+    }
+}
+
+.o:nth-child(43) {
+    animation: ring-43 10s linear infinite alternate;
+    border: 4px dotted #66cc88;
+}
+
+@keyframes ring-43 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(180deg);
+    }
+}
+
+.o:nth-child(44) {
+    animation: ring-44 10s linear infinite alternate;
+    border: 4px dotted #66ccaa;
+}
+
+@keyframes ring-44 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(240deg);
+    }
+}
+
+.o:nth-child(45) {
+    animation: ring-45 10s linear infinite alternate;
+    border: 4px dotted #66cccc;
+}
+
+@keyframes ring-45 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(300deg);
+    }
+}
+
+.o:nth-child(46) {
+    animation: ring-46 10s linear infinite alternate;
+    border: 4px dotted #66aacc;
+}
+
+@keyframes ring-46 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.o:nth-child(47) {
+    animation: ring-47 10s linear infinite alternate;
+    border: 4px dotted #6688cc;
+}
+
+@keyframes ring-47 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(420deg);
+    }
+}
+
+.o:nth-child(48) {
+    animation: ring-48 10s linear infinite alternate;
+    border: 4px dotted #6666cc;
+}
+
+@keyframes ring-48 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(480deg);
+    }
+}
+
+.o:nth-child(49) {
+    animation: ring-49 10s linear infinite alternate;
+    border: 4px dotted #8866cc;
+}
+
+@keyframes ring-49 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(540deg);
+    }
+}
+
+.o:nth-child(50) {
+    animation: ring-50 10s linear infinite alternate;
+    border: 4px dotted #aa66cc;
+}
+
+@keyframes ring-50 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(600deg);
+    }
+}
+
+.o:nth-child(51) {
+    animation: ring-51 10s linear infinite alternate;
+    border: 4px dotted #cc66cc;
+}
+
+@keyframes ring-51 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(660deg);
+    }
+}
+
+.o:nth-child(52) {
+    animation: ring-52 10s linear infinite alternate;
+    border: 4px dotted #cc66aa;
+}
+
+@keyframes ring-52 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(720deg);
+    }
+}
+
+.o:nth-child(53) {
+    animation: ring-53 10s linear infinite alternate;
+    border: 4px dotted #cc6688;
+}
+
+@keyframes ring-53 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(780deg);
+    }
+}
+
+.o:nth-child(54) {
+    animation: ring-54 10s linear infinite alternate;
+    border: 4px dotted #cc6666;
+}
+
+@keyframes ring-54 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(840deg);
+    }
+}
+
+.o:nth-child(55) {
+    animation: ring-55 10s linear infinite alternate;
+    border: 4px dotted #cc8866;
+}
+
+@keyframes ring-55 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(900deg);
+    }
+}
+
+.o:nth-child(56) {
+    animation: ring-56 10s linear infinite alternate;
+    border: 4px dotted #ccaa66;
+}
+
+@keyframes ring-56 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(960deg);
+    }
+}
+
+.o:nth-child(57) {
+    animation: ring-57 10s linear infinite alternate;
+    border: 4px dotted #cccc66;
+}
+
+@keyframes ring-57 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1020deg);
+    }
+}
+
+.o:nth-child(58) {
+    animation: ring-58 10s linear infinite alternate;
+    border: 4px dotted #aacc66;
+}
+
+@keyframes ring-58 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1080deg);
+    }
+}
+
+.o:nth-child(59) {
+    animation: ring-59 10s linear infinite alternate;
+    border: 4px dotted #88cc66;
+}
+
+@keyframes ring-59 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1140deg);
+    }
+}
+
+.o:nth-child(60) {
+    animation: ring-60 10s linear infinite alternate;
+    border: 4px dotted #66cc66;
+}
+
+@keyframes ring-60 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1200deg);
+    }
+}
+
+.o:nth-child(61) {
+    animation: ring-61 10s linear infinite alternate;
+    border: 4px dotted #66cc88;
+}
+
+@keyframes ring-61 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1260deg);
+    }
+}
+
+.o:nth-child(62) {
+    animation: ring-62 10s linear infinite alternate;
+    border: 4px dotted #66ccaa;
+}
+
+@keyframes ring-62 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1320deg);
+    }
+}
+
+.o:nth-child(63) {
+    animation: ring-63 10s linear infinite alternate;
+    border: 4px dotted #66cccc;
+}
+
+@keyframes ring-63 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1380deg);
+    }
+}
+
+.o:nth-child(64) {
+    animation: ring-64 10s linear infinite alternate;
+    border: 4px dotted #66aacc;
+}
+
+@keyframes ring-64 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1440deg);
+    }
+}
+
+.o:nth-child(65) {
+    animation: ring-65 10s linear infinite alternate;
+    border: 4px dotted #6688cc;
+}
+
+@keyframes ring-65 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1500deg);
+    }
+}
+
+.o:nth-child(66) {
+    animation: ring-66 10s linear infinite alternate;
+    border: 4px dotted #6666cc;
+}
+
+@keyframes ring-66 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1560deg);
+    }
+}
+
+.o:nth-child(67) {
+    animation: ring-67 10s linear infinite alternate;
+    border: 4px dotted #8866cc;
+}
+
+@keyframes ring-67 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1620deg);
+    }
+}
+
+.o:nth-child(68) {
+    animation: ring-68 10s linear infinite alternate;
+    border: 4px dotted #aa66cc;
+}
+
+@keyframes ring-68 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1680deg);
+    }
+}
+
+.o:nth-child(69) {
+    animation: ring-69 10s linear infinite alternate;
+    border: 4px dotted #cc66cc;
+}
+
+@keyframes ring-69 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1740deg);
+    }
+}
+
+.o:nth-child(70) {
+    animation: ring-70 10s linear infinite alternate;
+    border: 4px dotted #cc66aa;
+}
+
+@keyframes ring-70 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1800deg);
+    }
+}
+
+.o:nth-child(71) {
+    animation: ring-71 10s linear infinite alternate;
+    border: 4px dotted #cc6688;
+}
+
+@keyframes ring-71 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1860deg);
+    }
+}
+
+.o:nth-child(72) {
+    animation: ring-72 10s linear infinite alternate;
+    border: 4px dotted #cc6666;
+}
+
+@keyframes ring-72 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1920deg);
+    }
+}
+
+.o:nth-child(73) {
+    animation: ring-73 10s linear infinite alternate;
+    border: 4px dotted #cc8866;
+}
+
+@keyframes ring-73 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(1980deg);
+    }
+}
+
+.o:nth-child(74) {
+    animation: ring-74 10s linear infinite alternate;
+    border: 4px dotted #ccaa66;
+}
+
+@keyframes ring-74 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(2040deg);
+    }
+}
+
+.o:nth-child(75) {
+    animation: ring-75 10s linear infinite alternate;
+    border: 4px dotted #cccc66;
+}
+
+@keyframes ring-75 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(2100deg);
+    }
+}
+
+.o:nth-child(76) {
+    animation: ring-76 10s linear infinite alternate;
+    border: 4px dotted #aacc66;
+}
+
+@keyframes ring-76 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(2160deg);
+    }
+}
+
+.o:nth-child(77) {
+    animation: ring-77 10s linear infinite alternate;
+    border: 4px dotted #88cc66;
+}
+
+@keyframes ring-77 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(2220deg);
+    }
+}
+
+.o:nth-child(78) {
+    animation: ring-78 10s linear infinite alternate;
+    border: 4px dotted #66cc66;
+}
+
+@keyframes ring-78 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(2280deg);
+    }
+}
+
+.o:nth-child(79) {
+    animation: ring-79 10s linear infinite alternate;
+    border: 4px dotted #66cc88;
+}
+
+@keyframes ring-79 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(2340deg);
+    }
+}
+
+.o:nth-child(80) {
+    animation: ring-80 10s linear infinite alternate;
+    border: 4px dotted #66ccaa;
+}
+
+@keyframes ring-80 {
+    0% {
+        transform: rotateY(0) rotateX(0);
+    }
+    100% {
+        transform: rotateY(2400deg);
+    }
+}
+
+@media only screen and (max-width: 750px) {
+    .wrapper {
+        margin: 35vh 35vw;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .wrapper {
+        margin: 35vh 30vw;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .wrapper {
+        margin: 35vh 20vw;
+    }
+}
+
+@media only screen and (max-width: 300px) {
+    .wrapper {
+        margin: 35vh 10vw;
+    }
+}
